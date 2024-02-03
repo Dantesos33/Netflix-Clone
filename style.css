@@ -1,0 +1,546 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: black;
+}
+
+:root{
+    --p-color: #e80c14;
+}
+
+img{
+    height: 100%;
+    display: block;
+}
+
+h1,h2,h3,p{
+    color: #ffffff;
+}
+
+button, input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+button{
+    background-color: var(--p-color);
+    color: #ffffff;
+    font-weight: 700;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("Images/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+.navbar button{
+    padding: 10px 20px;
+}
+
+.content{
+    margin-top: 20px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.content h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.content h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.content p{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.email-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-signup .input{
+    background: transparent;
+    color: white;
+    padding: 15px 150px 15px 10px;
+    border: 1px solid grey;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.email-signup button{
+    padding: 10px 20px;
+    font-weight: 700;
+    background-color: var(--p-color);
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+Features
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.content-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img{
+    width: 90%;
+    margin: auto;
+}
+
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+} */
+
+/* 
+.navbar{
+    height: 100px;
+    padding: 5px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("Images/logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+}
+
+.signin-btn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.signin-btn:hover{
+    opacity: 0.75;
+}
+
+.content{
+    margin-top: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.content .first-para{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.content .sec-para{
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.content .third-para{
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding-top: 25px;
+}
+
+.login{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .input{
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 15px 150px 15px 10px;
+    border: 1px solid grey;
+    font-weight: 700;
+}
+
+.login-btn{
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    background-color: #ff0000;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+} */
+
+
+/* Fresh Start */
+
+/* CSS default */
+
+:root {
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-base: 1rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.25rem;
+    --fs-2xl: 1.5rem;
+    --fs-3xl: 1.875rem;
+    --fs-4xl: 2.25rem;
+    --fs-5xl: 3rem;
+    --fs-6xl: 3.75rem;
+    --fs-7xl: 4.5rem;
+    --fs-8xl: 6rem;
+    --fs-9xl: 8rem;
+    --p-color: #e80c14;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+button, input{
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+}
+
+h1,h2,h3,p{
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('./Images/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40rem;
+}
+
+/* Navbar */
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.header__logo{
+    width: 200px;
+}
+
+.btn{
+    background-color: var(--p-color);
+    padding: 0.7rem 1.3rem;
+    border-radius: 4px;
+    font-size: var(--fs-base);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Header__Content */
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.header__h1{
+    font-size: var(--fs-6xl);
+    margin-bottom: 2rem;
+}
+
+.header__h3{
+    font-size: var(--fs-3xl);
+    margin-bottom: 2rem;
+}
+
+.header__p{
+    font-size: var(--fs-xl);
+    margin-bottom: 3rem;
+}
+
+.sign-up__form{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.sign-up__form input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: var(--fs-base);
+    color: #000000;
+    font-weight: 600;
+}
+
+.getstarted-btn{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 1rem 2rem;
+}
+
+/* Features */
+
+.features{
+    padding: 2rem;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+.content-col,.img-col{
+    flex-basis: 50%;
+}
+
+.content-col h2{
+    font-size: var(--fs-6xl);
+}
+
+.content-col p{
+    margin-top: 2rem;
+    font-size: var(--fs-4xl);
+    line-height: 2.5rem;
+}
+
+/* Footer */
+
+.footer{
+    padding: 4rem;
+    font-size: var(--fs-2xl);
+}
+
+.footer a{
+    color: grey;
+    text-decoration: underline;
+}
+
+.footer__a{
+    gap: 2rem;
+    border: 1px solid red;
+}
+
+.footer__list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-self: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer__list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 950px){
+
+    /* Header */
+    .header__logo{
+        width: 150px;
+    }
+
+    .signin-btn{
+        padding: .5rem 1rem;
+        font-size: var(--fs-sm);
+    }
+
+    .header__h1{
+        font-size: var(--fs-5xl);
+    }
+
+    .header__h3{
+        font-size: var(--fs-2xl);
+    }
+
+    .header__p{
+        font-size: var(--fs-lg);
+    }
+
+    /* Features */
+    .row{
+        flex-direction: column;
+    }
+
+    .row:nth-child(2),.row:nth-child(4){
+        flex-direction: column-reverse;
+    }
+
+    .content-col,.img-col{
+        flex-basis: 100%;
+    }
+
+    .content-col{
+        text-align: center;
+    }
+
+    .content-col h2{
+        font-size: var(--fs-5xl);
+    }
+
+    .content-col p{
+        font-size: var(--fs-2xl);
+    }
+
+    /* footer */
+    .footer{
+        font-size: var(--fs-xl);
+    }
+
+    .footer__list{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+/* For 550px screens */
+
+@media screen and (max-width: 424px){
+    /* Header */
+
+    .header__logo{
+        width: 100px;
+    }
+
+    .signin-btn{
+        font-size: var(--fs-xs);
+    }
+
+    .header__h1{
+        font-size: var(--fs-4xl);
+    }
+
+    .header__h3{
+        font-size: var(--fs-xl);
+    }
+
+    .header__p{
+        font-size: var(--fs-sm);
+    }
+
+    .sign-up__form input{
+        font-size: var(--fs-xs);
+    }
+    
+    .getstarted-btn{
+        font-size: var(--fs-xs);
+        padding: 0.8rem 1rem;
+    }
+
+    
+
+    /* Features */
+
+    .content-col h2{
+        font-size: var(--fs-4xl);
+    }
+
+    .content-col p{
+        font-size: var(--fs-lg);
+    }
+
+
+    /* footer */
+    .footer{
+        font-size: var(--fs-lg);
+    }
+
+    .footer__list{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
