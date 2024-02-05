@@ -1,236 +1,3 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial;
-}
-
-body{
-    background-color: black;
-}
-
-:root{
-    --p-color: #e80c14;
-}
-
-img{
-    height: 100%;
-    display: block;
-}
-
-h1,h2,h3,p{
-    color: #ffffff;
-}
-
-button, input{
-    outline: none;
-    border: none;
-    border-radius: 4px;
-}
-
-button{
-    background-color: var(--p-color);
-    color: #ffffff;
-    font-weight: 700;
-}
-
-header{
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("Images/Background.jpg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.navbar{
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 150px;
-}
-
-.navbar button{
-    padding: 10px 20px;
-}
-
-.content{
-    margin-top: 20px;
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-
-.content h1{
-    font-size: 3rem;
-    margin-bottom: 20px;
-    font-weight: 900;
-}
-
-.content h3{
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
-
-.content p{
-    font-size: 1.25rem;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
-
-.email-signup{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.email-signup .input{
-    background: transparent;
-    color: white;
-    padding: 15px 150px 15px 10px;
-    border: 1px solid grey;
-    font-weight: 700;
-    font-size: 1rem;
-}
-
-.email-signup button{
-    padding: 10px 20px;
-    font-weight: 700;
-    background-color: var(--p-color);
-    color: white;
-    font-size: 1.5rem;
-    margin-left: 10px;
-}
-
-Features
-
-.features{
-    padding: 50px 12%;
-    font-size: 22px;
-}
-
-.row{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 50px 0;
-}
-
-.content-col{
-    flex-basis: 50%;
-    margin-bottom: 20px;
-}
-
-.img-col{
-    flex-basis: 50%;
-    margin-bottom: 20px;
-}
-
-.img-col img{
-    width: 90%;
-    margin: auto;
-}
-
-.features h2{
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 20px;
-} */
-
-/* 
-.navbar{
-    height: 100px;
-    padding: 5px 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo{
-    background-image: url("Images/logo.png");
-    background-size: cover;
-    height: 100px;
-    width: 200px;
-}
-
-.signin-btn{
-    padding: 10px 15px;
-    border-radius: 4px;
-    border: none;
-    font-weight: 700;
-    background-color: #ff0000;
-    color: white;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.signin-btn:hover{
-    opacity: 0.75;
-}
-
-.content{
-    margin-top: 150px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.content .first-para{
-    font-weight: 900;
-    font-size: 3rem;
-}
-
-.content .sec-para{
-    font-weight: 400;
-    font-size: 1.5rem;
-    padding-top: 20px;
-}
-
-.content .third-para{
-    font-weight: 400;
-    font-size: 1.25rem;
-    padding-top: 25px;
-}
-
-.login{
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.login .input{
-    border: none;
-    background: transparent;
-    color: white;
-    padding: 15px 150px 15px 10px;
-    border: 1px solid grey;
-    font-weight: 700;
-}
-
-.login-btn{
-    padding: 10px 20px;
-    border-radius: 4px;
-    border: none;
-    font-weight: 700;
-    background-color: #ff0000;
-    color: white;
-    font-size: 1.5rem;
-    margin-left: 10px;
-} */
-
-
-/* Fresh Start */
-
 /* CSS default */
 
 :root {
@@ -294,11 +61,12 @@ img {
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('./Images/Background.jpg');
     background-size: cover;
     background-position: center;
-    padding-bottom: 40rem;
+    position: relative;
 }
 
 /* Navbar */
 .header__navbar{
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -321,12 +89,13 @@ img {
 /* Header__Content */
 
 .header__content{
+    width: 100%;
+    height: calc(100vh - 100px);
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
-    text-align: center;
 }
 
 .header__h1{
@@ -350,7 +119,8 @@ img {
     display: flex;
     align-items: center;
     overflow: hidden;
-    margin-bottom: 30px;
+    width: 80%;
+    margin-inline: auto;
 }
 
 .sign-up__form input{
